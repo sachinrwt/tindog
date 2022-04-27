@@ -160,6 +160,12 @@ a{
   text-decoration: none;
 }
 
+.self{
+  color: #0d6efd;
+  font-weight: normal;
+  text-decoration: none;
+}
+
 /* media query */
 
 @media (max-width:1030px) {
@@ -221,5 +227,41 @@ a{
   }
   .pricing-column{
     margin-bottom: 50px;
+  }
+
+  .fo-icon{
+    margin: 1%;
+    font-size: 3rem;
+  }
+  .btn{
+    font-size: 3.5rem;
+    margin-top: 60px;
+  }
+  .navbar-toggler-icon{
+    font-size: 4.5rem;
+  }
+  .navbar-brand{
+    font-size: 4.5rem;
+  }
+  .nav-item{
+    font-size: 3.5rem;
+    text-align: right;
+    margin-top: 40px;
+  }
+  .card-body{
+    padding-top: 50px;
+    padding-bottom: 90px;
+  }
+  .press-logo{
+    width:24%;
+
+  }
+  .self{
+    color: #0d6efd;
+    font-weight: normal;
+    text-decoration: none;
+  }
+  #press{
+    padding-bottom:16%;
   }
 }
