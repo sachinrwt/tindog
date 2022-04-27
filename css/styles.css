@@ -164,7 +164,24 @@ a{
 
 @media (max-width:1030px) {
 
+  h1{
+    font-size: 5rem;
+  }
+
+  h2{
+    font-size: 4rem;
+  }
+
+  h3{
+    font-size: 3rem;
+  }
+
+  p{
+    font-size: 2.5rem;
+  }
+
   #title{
+    margin: 0;
     text-align: center;
   }
 
@@ -174,4 +191,35 @@ a{
     width: 60%;
   }
 
+  .container-fluid{
+    padding: 5% 3% 6% 3% ;
+  }
+
+  #features{
+    padding:10% 0;
+  }
+
+  .icon {
+    font-size: 10rem;
+    margin-bottom: 80px;
+
+  }
+  .fe-deck{
+    margin-top: 80px;
+  }
+
+  .carousel-item {
+    height: 640px;
+    padding: 6% 8%;
+  }
+  #testimonials{
+    height:70%;
+  }
+
+  #pricing{
+    padding: 15% 10px;
+  }
+  .pricing-column{
+    margin-bottom: 50px;
+  }
 }
